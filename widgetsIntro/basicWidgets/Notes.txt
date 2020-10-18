@@ -1,0 +1,14 @@
+Flutter Widget Notes
+
+* new widgets = subclasses; either StatelessWidget or StatefulWidget
+* widgets main job = implement build() function to describe widget in terms of other, lower-level widgets
+   (ex. React's Components?)
+* framework builds the widgets until reaches underlying RenderObject
+
+Basic Widgets
+* Text() = run styled texts
+* Row, Column() = flexible layouts for horizontal/vertical directions
+   (ex. flexbox layout)
+* Stack() = place widgets on top of each other; use Positioned() to position children of Stack relative to top, right, bottom or left edge of stack
+   (ex. Absolute Positioning)
+* Container = create rectangular visual element; use BoxDecoration() to decorate bg, border, shadow; had margins, padding and constraints, can be transformed in 3D w/ Matrix
